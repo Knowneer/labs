@@ -1,0 +1,14 @@
+[
+{
+  "directory": "/home/knowneer/Desktop/myProjects/bfuCourse/labs/lab5/build",
+  "command": "/usr/bin/g++  -I/home/knowneer/Desktop/myProjects/bfuCourse/labs/lab5/include -g -std=gnu++20 -o CMakeFiles/lecture05_cycles_and_arrays.dir/main.cpp.o -c /home/knowneer/Desktop/myProjects/bfuCourse/labs/lab5/main.cpp",
+  "file": "/home/knowneer/Desktop/myProjects/bfuCourse/labs/lab5/main.cpp",
+  "output": "CMakeFiles/lecture05_cycles_and_arrays.dir/main.cpp.o"
+},
+{
+  "directory": "/home/knowneer/Desktop/myProjects/bfuCourse/labs/lab5/build",
+  "command": "/usr/bin/g++  -I/home/knowneer/Desktop/myProjects/bfuCourse/labs/lab5/include -g -std=gnu++20 -o CMakeFiles/lecture05_cycles_and_arrays.dir/src/calculator.cpp.o -c /home/knowneer/Desktop/myProjects/bfuCourse/labs/lab5/src/calculator.cpp",
+  "file": "/home/knowneer/Desktop/myProjects/bfuCourse/labs/lab5/src/calculator.cpp",
+  "output": "CMakeFiles/lecture05_cycles_and_arrays.dir/src/calculator.cpp.o"
+}
+]
