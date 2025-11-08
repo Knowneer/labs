@@ -1,12 +1,13 @@
-cmake_minimum_required(VERSION 3.15)
+cmake_minimum_required(VERSION 3.16)
 
-set(PROJECT_NAME lab7_employee_pointers)
-project("${PROJECT_NAME}")
+project(lab7_employee_pointers LANGUAGES CXX)
 
-set(CMAKE_CXX_STANDARD 20)
+set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
-# добавляем исполняемый файл с исходниками
-add_executable("${PROJECT_NAME}" main.cpp src/employee.cpp)
-
-# говорим, где лежат наши заголовки (папка include)
-target_include_directories("${PROJECT_NAME}" PRIVATE ${CMAKE_SOURCE_DIR}/include)
+# Собираем исполняемый файл
+add_executable(lab7_employee_pointers
+    src/main.cpp
+    src/data.cpp
+    src/operations.cpp
+)
