@@ -1,0 +1,14 @@
+[
+{
+  "directory": "/home/knowneer/Desktop/myProjects/bfuCourse/labs/lab6/build",
+  "command": "/usr/bin/g++  -I/home/knowneer/Desktop/myProjects/bfuCourse/labs/lab6/include -g -std=gnu++20 -o CMakeFiles/lab7_employee_pointers.dir/main.cpp.o -c /home/knowneer/Desktop/myProjects/bfuCourse/labs/lab6/main.cpp",
+  "file": "/home/knowneer/Desktop/myProjects/bfuCourse/labs/lab6/main.cpp",
+  "output": "CMakeFiles/lab7_employee_pointers.dir/main.cpp.o"
+},
+{
+  "directory": "/home/knowneer/Desktop/myProjects/bfuCourse/labs/lab6/build",
+  "command": "/usr/bin/g++  -I/home/knowneer/Desktop/myProjects/bfuCourse/labs/lab6/include -g -std=gnu++20 -o CMakeFiles/lab7_employee_pointers.dir/src/employee.cpp.o -c /home/knowneer/Desktop/myProjects/bfuCourse/labs/lab6/src/employee.cpp",
+  "file": "/home/knowneer/Desktop/myProjects/bfuCourse/labs/lab6/src/employee.cpp",
+  "output": "CMakeFiles/lab7_employee_pointers.dir/src/employee.cpp.o"
+}
+]
