@@ -1,3 +1,0 @@
-/home/knowneer/Desktop/myProjects/bfuCourse/labs/lab5/build/CMakeFiles/lecture05_cycles_and_arrays.dir
-/home/knowneer/Desktop/myProjects/bfuCourse/labs/lab5/build/CMakeFiles/edit_cache.dir
-/home/knowneer/Desktop/myProjects/bfuCourse/labs/lab5/build/CMakeFiles/rebuild_cache.dir

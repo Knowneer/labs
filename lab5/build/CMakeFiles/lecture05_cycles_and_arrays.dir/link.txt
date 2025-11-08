@@ -1,1 +1,0 @@
-/usr/bin/g++ -g -Wl,--dependency-file=CMakeFiles/lecture05_cycles_and_arrays.dir/link.d CMakeFiles/lecture05_cycles_and_arrays.dir/main.cpp.o CMakeFiles/lecture05_cycles_and_arrays.dir/src/calculator.cpp.o -o lecture05_cycles_and_arrays
