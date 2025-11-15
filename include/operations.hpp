@@ -13,4 +13,10 @@ void processGrades(lab7::StudentArray* arr, const std::function<float(float)>& o
 
 
 
+// Отметить студентов по условию (condition возвращает true/false)
+void filterStudents(lab7::StudentArray* arr, bool (*condition)(const lab7::Student*));
+
+// Взвешенное среднее одной записи (указатель на функцию веса)
+float calculateAverage(const lab7::Student* student, float (*weight)(int index));
+
 } // namespace lab7
