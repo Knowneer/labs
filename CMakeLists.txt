@@ -1,12 +1,11 @@
-cmake_minimum_required(VERSION 3.16)
+cmake_minimum_required(VERSION 3.15)
 
-project(lab7_employee_pointers LANGUAGES CXX)
+set(PROJECT_NAME lab7_students_grades)
+project("${PROJECT_NAME}")
 
-set(CMAKE_CXX_STANDARD 17)
-set(CMAKE_CXX_STANDARD_REQUIRED ON)
+set(CMAKE_CXX_STANDARD 20)
 
-# Собираем исполняемый файл
-add_executable(lab7_employee_pointers
+add_executable("${PROJECT_NAME}"
     src/main.cpp
     src/data.cpp
     src/operations.cpp
