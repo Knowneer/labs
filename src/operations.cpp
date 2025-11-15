@@ -23,4 +23,23 @@ void processGrades(StudentArray* arr, const std::function<float(float)>& operati
             s.grades[j] = operation(s.grades[j]);
         }
     }
-}} 
+}
+
+
+float calculateAverage(const Student* student, float (*weight)(int index)) {
+    if (!student || student->grade_count <= 0 || !weight) return 0.0f;
+    float sum = 0.0f;
+    float wsum = 0.0f;
+    for (int i = 0; i < student->grade_count; ++i) {
+        float w = weight(i);          // вес i-й оценки
+        sum  += student->grades[i] * w;
+        wsum += w;
+    }
+    if (wsum == 0.0f) return 0.0f;
+    return sum / wsum;
+}
+
+
+
+
+} 
