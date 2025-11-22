@@ -6,7 +6,10 @@ project("${PROJECT_NAME}")
 set(CMAKE_CXX_STANDARD 20)
 
 add_executable("${PROJECT_NAME}"
-    src/main.cpp
+    main.cpp          # main лежит в корне
     src/data.cpp
     src/operations.cpp
 )
+
+# ВАЖНО: добавить путь к заголовкам
+target_include_directories("${PROJECT_NAME}" PRIVATE include)

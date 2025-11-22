@@ -3,14 +3,14 @@
 
 namespace lab7 {
 
-struct Student {
+struct Student {        
     char* name;        
     float* grades;     
     int    grade_count;
     bool   selected;  
 };
 
-struct StudentArray {
+struct StudentArray {       // массив студентов
     Student* students; 
     int size;
 };

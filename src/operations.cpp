@@ -3,7 +3,7 @@
 
 namespace lab7 {
 
-// === Иса: процессинг оценок через указатель на функцию ===
+//  процессинг оценок через указатель на функцию 
 void processGrades(StudentArray* arr, float (*operation)(float)) {
     if (!arr || !operation) return;
     for (int i = 0; i < arr->size; ++i) {
@@ -25,8 +25,17 @@ void processGrades(StudentArray* arr, const std::function<float(float)>& operati
     }
 }
 
+void filterStudents(StudentArray* arr, bool (*condition)(const Student*)) {     // отметка студентов по условию(которое передаем в main)
+    if (!arr || !condition) return;     
 
-float calculateAverage(const Student* student, float (*weight)(int index)) {
+    for (int i = 0; i < arr->size; ++i) {
+        Student& s = arr->students[i];
+        // true/false по условию — пишем в selected
+        s.selected = condition(&s);
+    }
+}
+
+float calculateAverage(const Student* student, float (*weight)(int index)) {        // взвешенное среднее
     if (!student || student->grade_count <= 0 || !weight) return 0.0f;
     float sum = 0.0f;
     float wsum = 0.0f;

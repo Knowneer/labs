@@ -5,9 +5,9 @@
 namespace lab7 {
 
 StudentArray* createStudentArray(int size) {
-    if (size <= 0) return nullptr; 
-    StudentArray* arr = new StudentArray;  
-    arr->size = size; 
+    if (size <= 0) return nullptr;          // некорректный размер
+    StudentArray* arr = new StudentArray;  // выделяем структуру
+    arr->size = size;       // инициализируем каждый Student в “чистое” состояние (без имени, без оценок)
     arr->students = new Student[size];  
     for (int i = 0; i < size; ++i) {   
         arr->students[i].name = nullptr;	 
@@ -18,7 +18,7 @@ StudentArray* createStudentArray(int size) {
     return arr;
 }
 
-void deleteStudentArray(StudentArray* arr) {	
+void deleteStudentArray(StudentArray* arr) {	        // полностью удаляет массив студентов
     if (!arr) return;		
     for (int i = 0; i < arr->size; ++i) {		
         Student& s = arr->students[i];
@@ -32,15 +32,15 @@ void deleteStudentArray(StudentArray* arr) {
     delete arr;
 }
 
-char* dup_cstr(const char* src) {		
+char* dup_cstr(const char* src) {		        // дублирует строку в динамической памяти
     if (!src) return nullptr;
     std::size_t n = std::strlen(src);		
-    char* p = new char[n + 1];	
+    char* p = new char[n + 1];	            // +1 для завершающего нуля (с '\0')
     std::memcpy(p, src, n + 1);	
     return p;
 }
 
-bool alloc_grades(Student& st, int grade_count) {		
+bool alloc_grades(Student& st, int grade_count) {		        // выделяет оценки студента
     if (grade_count <= 0) return false;		
     st.grades = new float[grade_count];
     st.grade_count = grade_count;
@@ -48,7 +48,7 @@ bool alloc_grades(Student& st, int grade_count) {
     return true;
 }
 
-float max_grade(const StudentArray* arr) {
+float max_grade(const StudentArray* arr) {          // находит максимум среди всех оценок всех студентов
     if (!arr || arr->size <= 0) return 0.0f;
     float mx = 0.0f;
     for (int i = 0; i < arr->size; ++i) {
@@ -60,7 +60,7 @@ float max_grade(const StudentArray* arr) {
     return mx;
 }
 
-void print_students(const StudentArray* arr) {
+void print_students(const StudentArray* arr) {     // печатает массив студентов
     if (!arr) return;
     for (int i = 0; i < arr->size; ++i) {
         const Student& s = arr->students[i];

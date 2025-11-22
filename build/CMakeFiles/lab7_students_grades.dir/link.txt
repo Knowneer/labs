@@ -1,0 +1,1 @@
+/usr/bin/g++ -g -Wl,--dependency-file=CMakeFiles/lab7_students_grades.dir/link.d CMakeFiles/lab7_students_grades.dir/main.cpp.o CMakeFiles/lab7_students_grades.dir/src/data.cpp.o CMakeFiles/lab7_students_grades.dir/src/operations.cpp.o -o lab7_students_grades
