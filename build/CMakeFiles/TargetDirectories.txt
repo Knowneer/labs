@@ -1,3 +1,0 @@
-/home/knowneer/Desktop/myProjects/bfuCourse/labs/build/CMakeFiles/lab7_students_grades.dir
-/home/knowneer/Desktop/myProjects/bfuCourse/labs/build/CMakeFiles/edit_cache.dir
-/home/knowneer/Desktop/myProjects/bfuCourse/labs/build/CMakeFiles/rebuild_cache.dir
