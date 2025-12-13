@@ -1,0 +1,14 @@
+[
+{
+  "directory": "D:/projects/labs/lab10/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/lab_10.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\lab_10.dir\\src\\main.cpp.obj -c D:\\projects\\labs\\lab10\\src\\main.cpp",
+  "file": "D:/projects/labs/lab10/src/main.cpp",
+  "output": "CMakeFiles/lab_10.dir/src/main.cpp.obj"
+},
+{
+  "directory": "D:/projects/labs/lab10/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/lab_10.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\lab_10.dir\\src\\caesar.cpp.obj -c D:\\projects\\labs\\lab10\\src\\caesar.cpp",
+  "file": "D:/projects/labs/lab10/src/caesar.cpp",
+  "output": "CMakeFiles/lab_10.dir/src/caesar.cpp.obj"
+}
+]
