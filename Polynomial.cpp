@@ -38,7 +38,7 @@ Polynomial::Polynomial(int degree) : m_degree(0), m_coeff(nullptr) {
     allocateAndZero(degree);			// Степень degree, все коэффициенты 0 => нулевой полином заданной степени
 }
 
-Polynomial::Polynomial(int degree, const double* coeffs) : m_degree(0), m_coeff(nullptr) {
+Polynomial::Polynomial(int degree, const double* coeffs) : m_degree(0), m_coeff(nullptr) { // копирует coeffs[0..degree] создает полином заданной степени и коэффициентов
     if (degree < 0) degree = 0;
     // сначала копируем, потом подрезаем степень
     allocateAndZero(degree);
@@ -68,7 +68,7 @@ Polynomial::Polynomial(const Polynomial& other) : m_degree(0), m_coeff(nullptr) 
     }
 }
 
-Polynomial& Polynomial::operator=(const Polynomial& other) {
+Polynomial& Polynomial::operator=(const Polynomial& other) {    // оператор присваивания
     if (this == &other) {
         return *this;
     }
