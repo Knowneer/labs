@@ -1,14 +1,14 @@
 [
 {
-  "directory": "D:/projects/labs/lab11/build",
-  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/lab_11.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\lab_11.dir\\src\\main.cpp.obj -c D:\\projects\\labs\\lab11\\src\\main.cpp",
-  "file": "D:/projects/labs/lab11/src/main.cpp",
+  "directory": "D:/projects/labs/lab12/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/lab_11.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\lab_11.dir\\src\\main.cpp.obj -c D:\\projects\\labs\\lab12\\src\\main.cpp",
+  "file": "D:/projects/labs/lab12/src/main.cpp",
   "output": "CMakeFiles/lab_11.dir/src/main.cpp.obj"
 },
 {
-  "directory": "D:/projects/labs/lab11/build",
-  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/lab_11.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\lab_11.dir\\src\\ArrayRecursion.cpp.obj -c D:\\projects\\labs\\lab11\\src\\ArrayRecursion.cpp",
-  "file": "D:/projects/labs/lab11/src/ArrayRecursion.cpp",
-  "output": "CMakeFiles/lab_11.dir/src/ArrayRecursion.cpp.obj"
+  "directory": "D:/projects/labs/lab12/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/lab_11.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\lab_11.dir\\src\\dictionary.cpp.obj -c D:\\projects\\labs\\lab12\\src\\dictionary.cpp",
+  "file": "D:/projects/labs/lab12/src/dictionary.cpp",
+  "output": "CMakeFiles/lab_11.dir/src/dictionary.cpp.obj"
 }
 ]

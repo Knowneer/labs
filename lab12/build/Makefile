@@ -56,10 +56,10 @@ RM = "C:\Program Files\CMake\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = D:\projects\labs\lab11
+CMAKE_SOURCE_DIR = D:\projects\labs\lab12
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = D:\projects\labs\lab11\build
+CMAKE_BINARY_DIR = D:\projects\labs\lab12\build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -86,9 +86,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\projects\labs\lab11\build\CMakeFiles D:\projects\labs\lab11\build\\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\projects\labs\lab12\build\CMakeFiles D:\projects\labs\lab12\build\\CMakeFiles\progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\projects\labs\lab11\build\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\projects\labs\lab12\build\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -128,29 +128,29 @@ lab_11/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab_11.dir\build.make CMakeFiles/lab_11.dir/build
 .PHONY : lab_11/fast
 
-src/ArrayRecursion.obj: src/ArrayRecursion.cpp.obj
-.PHONY : src/ArrayRecursion.obj
+src/dictionary.obj: src/dictionary.cpp.obj
+.PHONY : src/dictionary.obj
 
 # target to build an object file
-src/ArrayRecursion.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab_11.dir\build.make CMakeFiles/lab_11.dir/src/ArrayRecursion.cpp.obj
-.PHONY : src/ArrayRecursion.cpp.obj
+src/dictionary.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab_11.dir\build.make CMakeFiles/lab_11.dir/src/dictionary.cpp.obj
+.PHONY : src/dictionary.cpp.obj
 
-src/ArrayRecursion.i: src/ArrayRecursion.cpp.i
-.PHONY : src/ArrayRecursion.i
+src/dictionary.i: src/dictionary.cpp.i
+.PHONY : src/dictionary.i
 
 # target to preprocess a source file
-src/ArrayRecursion.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab_11.dir\build.make CMakeFiles/lab_11.dir/src/ArrayRecursion.cpp.i
-.PHONY : src/ArrayRecursion.cpp.i
+src/dictionary.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab_11.dir\build.make CMakeFiles/lab_11.dir/src/dictionary.cpp.i
+.PHONY : src/dictionary.cpp.i
 
-src/ArrayRecursion.s: src/ArrayRecursion.cpp.s
-.PHONY : src/ArrayRecursion.s
+src/dictionary.s: src/dictionary.cpp.s
+.PHONY : src/dictionary.s
 
 # target to generate assembly for a file
-src/ArrayRecursion.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab_11.dir\build.make CMakeFiles/lab_11.dir/src/ArrayRecursion.cpp.s
-.PHONY : src/ArrayRecursion.cpp.s
+src/dictionary.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab_11.dir\build.make CMakeFiles/lab_11.dir/src/dictionary.cpp.s
+.PHONY : src/dictionary.cpp.s
 
 src/main.obj: src/main.cpp.obj
 .PHONY : src/main.obj
@@ -185,9 +185,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... lab_11
-	@echo ... src/ArrayRecursion.obj
-	@echo ... src/ArrayRecursion.i
-	@echo ... src/ArrayRecursion.s
+	@echo ... src/dictionary.obj
+	@echo ... src/dictionary.i
+	@echo ... src/dictionary.s
 	@echo ... src/main.obj
 	@echo ... src/main.i
 	@echo ... src/main.s

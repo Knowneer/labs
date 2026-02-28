@@ -22,8 +22,7 @@ int main()
         std::cout << "Выберите действие: ";
         std::cin >> choice;
 
-        switch (choice)
-        {
+        switch (choice){
         case 1:
             addWord(dictionary);
             break;

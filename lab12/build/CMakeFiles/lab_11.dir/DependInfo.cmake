@@ -8,8 +8,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "D:/projects/labs/lab11/src/ArrayRecursion.cpp" "CMakeFiles/lab_11.dir/src/ArrayRecursion.cpp.obj" "gcc" "CMakeFiles/lab_11.dir/src/ArrayRecursion.cpp.obj.d"
-  "D:/projects/labs/lab11/src/main.cpp" "CMakeFiles/lab_11.dir/src/main.cpp.obj" "gcc" "CMakeFiles/lab_11.dir/src/main.cpp.obj.d"
+  "D:/projects/labs/lab12/src/dictionary.cpp" "CMakeFiles/lab_11.dir/src/dictionary.cpp.obj" "gcc" "CMakeFiles/lab_11.dir/src/dictionary.cpp.obj.d"
+  "D:/projects/labs/lab12/src/main.cpp" "CMakeFiles/lab_11.dir/src/main.cpp.obj" "gcc" "CMakeFiles/lab_11.dir/src/main.cpp.obj.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

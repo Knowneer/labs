@@ -53,10 +53,10 @@ RM = "C:\Program Files\CMake\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = D:\projects\labs\lab11
+CMAKE_SOURCE_DIR = D:\projects\labs\lab12
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = D:\projects\labs\lab11\build
+CMAKE_BINARY_DIR = D:\projects\labs\lab12\build
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -84,14 +84,14 @@ clean: CMakeFiles/lab_11.dir/clean
 CMakeFiles/lab_11.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab_11.dir\build.make CMakeFiles/lab_11.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab_11.dir\build.make CMakeFiles/lab_11.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\projects\labs\lab11\build\CMakeFiles --progress-num=1,2,3 "Built target lab_11"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\projects\labs\lab12\build\CMakeFiles --progress-num=1,2,3 "Built target lab_11"
 .PHONY : CMakeFiles/lab_11.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/lab_11.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\projects\labs\lab11\build\CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\projects\labs\lab12\build\CMakeFiles 3
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/lab_11.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\projects\labs\lab11\build\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\projects\labs\lab12\build\CMakeFiles 0
 .PHONY : CMakeFiles/lab_11.dir/rule
 
 # Convenience name for target.
@@ -101,7 +101,7 @@ lab_11: CMakeFiles/lab_11.dir/rule
 # codegen rule for target.
 CMakeFiles/lab_11.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab_11.dir\build.make CMakeFiles/lab_11.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\projects\labs\lab11\build\CMakeFiles --progress-num=1,2,3 "Finished codegen for target lab_11"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\projects\labs\lab12\build\CMakeFiles --progress-num=1,2,3 "Finished codegen for target lab_11"
 .PHONY : CMakeFiles/lab_11.dir/codegen
 
 # clean rule for target.

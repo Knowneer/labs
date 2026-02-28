@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/lab_11.dir/src/ArrayRecursion.cpp.obj"
-  "CMakeFiles/lab_11.dir/src/ArrayRecursion.cpp.obj.d"
+  "CMakeFiles/lab_11.dir/src/dictionary.cpp.obj"
+  "CMakeFiles/lab_11.dir/src/dictionary.cpp.obj.d"
   "CMakeFiles/lab_11.dir/src/main.cpp.obj"
   "CMakeFiles/lab_11.dir/src/main.cpp.obj.d"
   "lab_11.exe"

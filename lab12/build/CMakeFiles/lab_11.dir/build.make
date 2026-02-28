@@ -52,10 +52,10 @@ RM = "C:\Program Files\CMake\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = D:\projects\labs\lab11
+CMAKE_SOURCE_DIR = D:\projects\labs\lab12
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = D:\projects\labs\lab11\build
+CMAKE_BINARY_DIR = D:\projects\labs\lab12\build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/lab_11.dir/depend.make
@@ -73,49 +73,49 @@ CMakeFiles/lab_11.dir/codegen:
 
 CMakeFiles/lab_11.dir/src/main.cpp.obj: CMakeFiles/lab_11.dir/flags.make
 CMakeFiles/lab_11.dir/src/main.cpp.obj: CMakeFiles/lab_11.dir/includes_CXX.rsp
-CMakeFiles/lab_11.dir/src/main.cpp.obj: D:/projects/labs/lab11/src/main.cpp
+CMakeFiles/lab_11.dir/src/main.cpp.obj: D:/projects/labs/lab12/src/main.cpp
 CMakeFiles/lab_11.dir/src/main.cpp.obj: CMakeFiles/lab_11.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\projects\labs\lab11\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/lab_11.dir/src/main.cpp.obj"
-	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/lab_11.dir/src/main.cpp.obj -MF CMakeFiles\lab_11.dir\src\main.cpp.obj.d -o CMakeFiles\lab_11.dir\src\main.cpp.obj -c D:\projects\labs\lab11\src\main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\projects\labs\lab12\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/lab_11.dir/src/main.cpp.obj"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/lab_11.dir/src/main.cpp.obj -MF CMakeFiles\lab_11.dir\src\main.cpp.obj.d -o CMakeFiles\lab_11.dir\src\main.cpp.obj -c D:\projects\labs\lab12\src\main.cpp
 
 CMakeFiles/lab_11.dir/src/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/lab_11.dir/src/main.cpp.i"
-	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\projects\labs\lab11\src\main.cpp > CMakeFiles\lab_11.dir\src\main.cpp.i
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\projects\labs\lab12\src\main.cpp > CMakeFiles\lab_11.dir\src\main.cpp.i
 
 CMakeFiles/lab_11.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/lab_11.dir/src/main.cpp.s"
-	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\projects\labs\lab11\src\main.cpp -o CMakeFiles\lab_11.dir\src\main.cpp.s
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\projects\labs\lab12\src\main.cpp -o CMakeFiles\lab_11.dir\src\main.cpp.s
 
-CMakeFiles/lab_11.dir/src/ArrayRecursion.cpp.obj: CMakeFiles/lab_11.dir/flags.make
-CMakeFiles/lab_11.dir/src/ArrayRecursion.cpp.obj: CMakeFiles/lab_11.dir/includes_CXX.rsp
-CMakeFiles/lab_11.dir/src/ArrayRecursion.cpp.obj: D:/projects/labs/lab11/src/ArrayRecursion.cpp
-CMakeFiles/lab_11.dir/src/ArrayRecursion.cpp.obj: CMakeFiles/lab_11.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\projects\labs\lab11\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/lab_11.dir/src/ArrayRecursion.cpp.obj"
-	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/lab_11.dir/src/ArrayRecursion.cpp.obj -MF CMakeFiles\lab_11.dir\src\ArrayRecursion.cpp.obj.d -o CMakeFiles\lab_11.dir\src\ArrayRecursion.cpp.obj -c D:\projects\labs\lab11\src\ArrayRecursion.cpp
+CMakeFiles/lab_11.dir/src/dictionary.cpp.obj: CMakeFiles/lab_11.dir/flags.make
+CMakeFiles/lab_11.dir/src/dictionary.cpp.obj: CMakeFiles/lab_11.dir/includes_CXX.rsp
+CMakeFiles/lab_11.dir/src/dictionary.cpp.obj: D:/projects/labs/lab12/src/dictionary.cpp
+CMakeFiles/lab_11.dir/src/dictionary.cpp.obj: CMakeFiles/lab_11.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\projects\labs\lab12\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/lab_11.dir/src/dictionary.cpp.obj"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/lab_11.dir/src/dictionary.cpp.obj -MF CMakeFiles\lab_11.dir\src\dictionary.cpp.obj.d -o CMakeFiles\lab_11.dir\src\dictionary.cpp.obj -c D:\projects\labs\lab12\src\dictionary.cpp
 
-CMakeFiles/lab_11.dir/src/ArrayRecursion.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/lab_11.dir/src/ArrayRecursion.cpp.i"
-	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\projects\labs\lab11\src\ArrayRecursion.cpp > CMakeFiles\lab_11.dir\src\ArrayRecursion.cpp.i
+CMakeFiles/lab_11.dir/src/dictionary.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/lab_11.dir/src/dictionary.cpp.i"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\projects\labs\lab12\src\dictionary.cpp > CMakeFiles\lab_11.dir\src\dictionary.cpp.i
 
-CMakeFiles/lab_11.dir/src/ArrayRecursion.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/lab_11.dir/src/ArrayRecursion.cpp.s"
-	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\projects\labs\lab11\src\ArrayRecursion.cpp -o CMakeFiles\lab_11.dir\src\ArrayRecursion.cpp.s
+CMakeFiles/lab_11.dir/src/dictionary.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/lab_11.dir/src/dictionary.cpp.s"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\projects\labs\lab12\src\dictionary.cpp -o CMakeFiles\lab_11.dir\src\dictionary.cpp.s
 
 # Object files for target lab_11
 lab_11_OBJECTS = \
 "CMakeFiles/lab_11.dir/src/main.cpp.obj" \
-"CMakeFiles/lab_11.dir/src/ArrayRecursion.cpp.obj"
+"CMakeFiles/lab_11.dir/src/dictionary.cpp.obj"
 
 # External object files for target lab_11
 lab_11_EXTERNAL_OBJECTS =
 
 lab_11.exe: CMakeFiles/lab_11.dir/src/main.cpp.obj
-lab_11.exe: CMakeFiles/lab_11.dir/src/ArrayRecursion.cpp.obj
+lab_11.exe: CMakeFiles/lab_11.dir/src/dictionary.cpp.obj
 lab_11.exe: CMakeFiles/lab_11.dir/build.make
 lab_11.exe: CMakeFiles/lab_11.dir/linkLibs.rsp
 lab_11.exe: CMakeFiles/lab_11.dir/objects1.rsp
 lab_11.exe: CMakeFiles/lab_11.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=D:\projects\labs\lab11\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable lab_11.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=D:\projects\labs\lab12\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable lab_11.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\lab_11.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -127,6 +127,6 @@ CMakeFiles/lab_11.dir/clean:
 .PHONY : CMakeFiles/lab_11.dir/clean
 
 CMakeFiles/lab_11.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" D:\projects\labs\lab11 D:\projects\labs\lab11 D:\projects\labs\lab11\build D:\projects\labs\lab11\build D:\projects\labs\lab11\build\CMakeFiles\lab_11.dir\DependInfo.cmake "--color=$(COLOR)" lab_11
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" D:\projects\labs\lab12 D:\projects\labs\lab12 D:\projects\labs\lab12\build D:\projects\labs\lab12\build D:\projects\labs\lab12\build\CMakeFiles\lab_11.dir\DependInfo.cmake "--color=$(COLOR)" lab_11
 .PHONY : CMakeFiles/lab_11.dir/depend
 
